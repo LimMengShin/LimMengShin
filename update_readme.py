@@ -6,6 +6,7 @@ def main():
         context = browser.new_context(
             viewport={'width': 1280, 'height': 764},
             device_scale_factor=2,
+            color_scheme='dark',
         )
         page = context.new_page()
         page.goto('https://github.com/LimMengShin')
