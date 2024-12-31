@@ -4,7 +4,7 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         context = browser.new_context(
-            viewport={'width': 1280, 'height': 764},
+            viewport={'width': 1280, 'height': 794},
             device_scale_factor=2,
             color_scheme='dark',
         )
